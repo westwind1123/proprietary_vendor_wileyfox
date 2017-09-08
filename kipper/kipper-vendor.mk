@@ -182,6 +182,8 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/wileyfox/kipper/proprietary/vendor/lib/libprotobuf-cpp-shit.so:system/vendor/lib/libprotobuf-cpp-shit.so \
+    vendor/wileyfox/kipper/proprietary/vendor/lib/libprotobuf-cpp-biss.so:system/vendor/lib/libprotobuf-cpp-biss.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
@@ -269,7 +271,10 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so
+    vendor/wileyfox/kipper/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
+    vendor/wileyfox/kipper/proprietary/vendor/lib64/libprotobuf-cpp-shit.so:system/vendor/lib64/libprotobuf-cpp-shit.so \
+    vendor/wileyfox/kipper/proprietary/vendor/lib64/libprotobuf-cpp-biss.so:system/vendor/lib64/libprotobuf-cpp-biss.so
+
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
