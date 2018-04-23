@@ -47,10 +47,8 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/wileyfox/kipper/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/wileyfox/kipper/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
-    vendor/wileyfox/kipper/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/wileyfox/kipper/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/wileyfox/kipper/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
-    vendor/wileyfox/kipper/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/wileyfox/kipper/proprietary/lib64/librilqmiservices.so:system/lib64/librilqmiservices.so \
     vendor/wileyfox/kipper/proprietary/lib64/libwcnss_qmi.so:system/lib64/libwcnss_qmi.so \
     vendor/wileyfox/kipper/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
@@ -294,11 +292,9 @@ PRODUCT_PACKAGES += \
     libloc_ds_api \
     libwpa_qmi_eap_proxy \
     libtime_genoff \
-    QtiTelephonyService \
     TimeService \
     colorservice \
     shutdownlistener \
     qcrilmsgtunnel \
     qcnvitems \
-    qcrilhook \
     cktnvtool
